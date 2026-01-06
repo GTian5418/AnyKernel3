@@ -1,18 +1,18 @@
 ### AnyKernel3 Ramdisk Mod Script
 ## osm0sis @ xda-developers
-## Adapted for Xiaomi 11 (Venus) Docker Kernel
+## Adapted for Redmi Note 9 5G (Cannon) Docker Kernel
 
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=Gemini-Docker-Kernel for Mi 11 (Venus)
+kernel.string=ExampleKernel by osm0sis @ xda-developers
 do.devicecheck=1
 do.modules=0
 do.systemless=1
 do.cleanup=1
 do.cleanuponabort=0
-device.name1=venus
-device.name2=mi11
+device.name1=cannon
+device.name2=cannong
 supported.versions=
 '; } 
 BLOCK=boot;
